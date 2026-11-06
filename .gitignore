@@ -1,0 +1,10 @@
+node_modules/
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+__pycache__/
+*.pyc
+.env
+.env.*
+.DS_Store

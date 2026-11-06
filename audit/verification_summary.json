@@ -1,0 +1,23 @@
+{
+  "audit_utc": "2026-11-06T03:00:13.734163+00:00",
+  "status": "passed",
+  "source_records": 218,
+  "rnaseq_records": 104,
+  "provenance_cells": 1456,
+  "provenance_status_counts": {
+    "observed": 1190,
+    "missing": 248,
+    "not_applicable": 18
+  },
+  "pairwise_rows": 21,
+  "design_cells": 23,
+  "code_sha256": {
+    "prototype/compare.R": "5754edea8602656e617e8f32699436ca89859349f50087d11c7f737ba8d5d422",
+    "prototype/demo.R": "364a1a0e4b04648b4dc552e5684c8427f9976c6bf67c53aacc0a7f607ab5b8a8",
+    "prototype/tests.R": "f3aba3cb5f81ef6e811882df8ec4df45245de2c3876e8b152f5afad624e410c1"
+  },
+  "limits": [
+    "Offline verifier does not certify biological equivalence or independence of records.",
+    "Native R, Bioconductor classes, R CMD check and BiocCheck not executed."
+  ]
+}

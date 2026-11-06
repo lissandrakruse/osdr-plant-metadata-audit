@@ -1,0 +1,26 @@
+[
+  {
+    "accession": "OSD-37",
+    "url": "https://visualization.osdr.nasa.gov/biodata/api/v2/query/metadata/?id.accession=OSD-37&study.characteristics&study.factor%20value&study.parameter%20value&investigation.study%20assays.study%20assay%20technology%20type",
+    "retrieved_at_utc": "2026-11-06T02:40:06.043292+00:00",
+    "sha256": "59244f4b538cf8970e4475cb84fbbcddd02859798a39638770a901127266e11d",
+    "n_rows": 56,
+    "file": "raw/OSD-37.csv"
+  },
+  {
+    "accession": "OSD-38",
+    "url": "https://visualization.osdr.nasa.gov/biodata/api/v2/query/metadata/?id.accession=OSD-38&study.characteristics&study.factor%20value&study.parameter%20value&investigation.study%20assays.study%20assay%20technology%20type",
+    "retrieved_at_utc": "2026-11-06T02:40:06.006584+00:00",
+    "sha256": "e54e4bffa1cab72c30670c367abe040d641038ed6438bc326ce22e691482112e",
+    "n_rows": 36,
+    "file": "raw/OSD-38.csv"
+  },
+  {
+    "accession": "OSD-120",
+    "url": "https://visualization.osdr.nasa.gov/biodata/api/v2/query/metadata/?id.accession=OSD-120&study.characteristics&study.factor%20value&study.parameter%20value&investigation.study%20assays.study%20assay%20technology%20type",
+    "retrieved_at_utc": "2026-11-06T02:40:05.895512+00:00",
+    "sha256": "f8eaa349c1e50f22184c5e76dd4d6cee9c4df8315fd4d67ea30112917a33d6cf",
+    "n_rows": 126,
+    "file": "raw/OSD-120.csv"
+  }
+]

@@ -1,0 +1,24 @@
+"accession","tissue","ecotype","spaceflight","preservation","light_treatment","n_assay_sample_records"
+"OSD-38","seedlings","col-0","ground control","liquid nitrogen","<missing>",3
+"OSD-37","seedlings","col-0","ground control","rnalater","<missing>",8
+"OSD-38","seedlings","col-0","ground control","rnalater","<missing>",6
+"OSD-37","seedlings","cvi-0","ground control","rnalater","<missing>",6
+"OSD-37","seedlings","ler-0","ground control","rnalater","<missing>",6
+"OSD-37","seedlings","ws-2","ground control","rnalater","<missing>",8
+"OSD-37","seedlings","col-0","space flight","rnalater","<missing>",8
+"OSD-38","seedlings","col-0","space flight","rnalater","<missing>",3
+"OSD-37","seedlings","cvi-0","space flight","rnalater","<missing>",6
+"OSD-37","seedlings","ler-0","space flight","rnalater","<missing>",6
+"OSD-37","seedlings","ws-2","space flight","rnalater","<missing>",8
+"OSD-120","plant roots","col-0","ground control","rnalater","dark treatment",3
+"OSD-120","plant roots","col-0 phyd","ground control","rnalater","dark treatment",3
+"OSD-120","plant roots","wassilewskija ecotype","ground control","rnalater","dark treatment",3
+"OSD-120","plant roots","col-0","space flight","rnalater","dark treatment",3
+"OSD-120","plant roots","col-0 phyd","space flight","rnalater","dark treatment",3
+"OSD-120","plant roots","wassilewskija ecotype","space flight","rnalater","dark treatment",3
+"OSD-120","plant roots","col-0","ground control","rnalater","light treatment",3
+"OSD-120","plant roots","col-0 phyd","ground control","rnalater","light treatment",3
+"OSD-120","plant roots","wassilewskija ecotype","ground control","rnalater","light treatment",3
+"OSD-120","plant roots","col-0","space flight","rnalater","light treatment",3
+"OSD-120","plant roots","col-0 phyd","space flight","rnalater","light treatment",3
+"OSD-120","plant roots","wassilewskija ecotype","space flight","rnalater","light treatment",3

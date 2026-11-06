@@ -1,0 +1,75 @@
+RUN tests.R:
+All 18 assertion groups passed.
+Two additional design-cell assertion groups passed (20 total).
+Three additional ID and light-stratification assertion groups passed (23 total).
+RUN demo.R:
+
+OSD-120  OSD-37  OSD-38 
+     36      56      12 
+   study_a study_b        field                                   values_a
+1  OSD-120  OSD-37     organism                       arabidopsis thaliana
+2  OSD-120  OSD-37       tissue                                plant roots
+3  OSD-120  OSD-37      ecotype col-0 | col-0 phyd | wassilewskija ecotype
+4  OSD-120  OSD-37    age_hours                                           
+5  OSD-120  OSD-37     hardware                                 petri dish
+6  OSD-120  OSD-37  light_cycle                                           
+7  OSD-120  OSD-37 preservation                                   rnalater
+8  OSD-120  OSD-38     organism                       arabidopsis thaliana
+9  OSD-120  OSD-38       tissue                                plant roots
+10 OSD-120  OSD-38      ecotype col-0 | col-0 phyd | wassilewskija ecotype
+11 OSD-120  OSD-38    age_hours                                           
+12 OSD-120  OSD-38     hardware                                 petri dish
+13 OSD-120  OSD-38  light_cycle                                           
+14 OSD-120  OSD-38 preservation                                   rnalater
+15  OSD-37  OSD-38     organism                       arabidopsis thaliana
+16  OSD-37  OSD-38       tissue                                  seedlings
+17  OSD-37  OSD-38      ecotype               col-0 | cvi-0 | ler-0 | ws-2
+18  OSD-37  OSD-38    age_hours                                        192
+19  OSD-37  OSD-38     hardware                                  bric-pdfu
+20  OSD-37  OSD-38  light_cycle                             dark 24 {hour}
+21  OSD-37  OSD-38 preservation                                   rnalater
+                       values_b n_missing_a n_missing_b
+1          arabidopsis thaliana           0           0
+2                     seedlings           0           0
+3  col-0 | cvi-0 | ler-0 | ws-2           0           0
+4                           192          36           0
+5                     bric-pdfu           0           0
+6                dark 24 {hour}          36           0
+7                      rnalater           0           0
+8          arabidopsis thaliana           0           0
+9                     seedlings           0           0
+10                        col-0           0           0
+11                           76          36           0
+12                    bric-pdfu           0           0
+13               dark 24 {hour}          36           0
+14   liquid nitrogen | rnalater           0           0
+15         arabidopsis thaliana           0           0
+16                    seedlings           0           0
+17                        col-0           0           0
+18                           76           0           0
+19                    bric-pdfu           0           0
+20               dark 24 {hour}           0           0
+21   liquid nitrogen | rnalater           0           0
+                        result
+1         same_observed_values
+2    different_observed_values
+3  overlapping_observed_values
+4         unavailable_metadata
+5    different_observed_values
+6         unavailable_metadata
+7         same_observed_values
+8         same_observed_values
+9    different_observed_values
+10 overlapping_observed_values
+11        unavailable_metadata
+12   different_observed_values
+13        unavailable_metadata
+14 overlapping_observed_values
+15        same_observed_values
+16        same_observed_values
+17 overlapping_observed_values
+18   different_observed_values
+19        same_observed_values
+20        same_observed_values
+21 overlapping_observed_values
+Outputs are metadata diagnostics, NOT scientific eligibility decisions.

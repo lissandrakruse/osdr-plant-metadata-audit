@@ -1,0 +1,18 @@
+RUN prototype/tests.R:
+All 18 assertion groups passed.
+Two additional design-cell assertion groups passed (20 total).
+Three additional ID and light-stratification assertion groups passed (23 total).
+RUN audit/edge_tests.R:
+BLANK_SAMPLE_REJECTED: TRUE
+DISTINCT_TUPLES_ACCEPTED: TRUE
+NORMALISE 24 {hour}: 24
+NORMALISE 1 {day}: 24
+NORMALISE 1.5 {day}: 36
+NORMALISE NA: NA
+NORMALISE Not Applicable: NA
+NORMALISE Not Available: NA
+NORMALISE bad unit: NA
+OBSERVED_VS_NOT_APPLICABLE_CONFLICT: TRUE
+OBSERVED_VS_MISSING_OBSERVED: TRUE
+UNSUPPORTED_UNIT_FLAGGED: TRUE
+UNRECOGNISED_TECHNOLOGY_SILENTLY_REMOVED: TRUE
